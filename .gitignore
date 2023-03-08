@@ -1,0 +1,6 @@
+vendor
+.env
+.env.backup
+.env.production
+auth.json
+.vscode
