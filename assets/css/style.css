@@ -6,7 +6,7 @@
   --btn-border-color: #1977f3;
   --blend-mode: normal;
 }
-
+/*
 #dark,
 :root:has(#darkChecked:checked) {
   --bg-body-color: #181922;
@@ -14,8 +14,15 @@
   --btn-bg-color: #262a34;
   --btn-border-color: #262a34;
   --blend-mode: lighten;
+} */
+#dark,
+:root:has(#darkChecked:checked) {
+--bg-body-color: #121214;
+  --text-color: #ffffff;
+  --btn-bg-color: #736BF3;
+  --btn-border-color: #736BF3;
+  --blend-mode: lighten;
 }
-
 * {
   margin: 0;
   padding: 0;
