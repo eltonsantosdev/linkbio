@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 #light,
 :root {
   --bg-body-color: #ffffff;
@@ -6,6 +11,7 @@
   --btn-border-color: #1977f3;
   --blend-mode: normal;
 }
+
 /*
 #dark,
 :root:has(#darkChecked:checked) {
@@ -15,20 +21,30 @@
   --btn-border-color: #262a34;
   --blend-mode: lighten;
 } */
+
+/*
 #dark,
 :root:has(#darkChecked:checked) {
 --bg-body-color: #121214;
-  --text-color: #ffffff;
-  --btn-bg-color: #736BF3;
-  --btn-bg-hover:#5A4FCF;
-  --btn-border-color: #736BF3;
-  --btn-border-hover:#5A4FCF;
-  --blend-mode: lighten;
+--text-color: #ffffff;
+--btn-bg-color: #736BF3;
+--btn-bg-hover:#5A4FCF;
+--btn-border-color: #736BF3;
+--btn-border-hover:#5A4FCF;
+--blend-mode: lighten;
 }
-* {
-  margin: 0;
-  padding: 0;
+*/
+#dark,
+:root:has(#darkChecked:checked) {
+--bg-body-color: #121214;
+--text-color: #ffffff;
+--btn-bg-color: #414563;
+--btn-bg-hover: #646b93;
+--btn-border-color: #414563;
+--btn-border-hover:#646b93;
+--blend-mode: lighten;
 }
+
 :root:has(#darkChecked:checked) *{
   color: var(--text-color)!important;
 }
