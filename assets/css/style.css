@@ -20,7 +20,9 @@
 --bg-body-color: #121214;
   --text-color: #ffffff;
   --btn-bg-color: #736BF3;
+  --btn-bg-hover:#5A4FCF;
   --btn-border-color: #736BF3;
+  --btn-border-hover:#5A4FCF;
   --blend-mode: lighten;
 }
 * {
@@ -62,7 +64,10 @@ body {
   background-color: var(--btn-bg-color);
   border-color: var(--btn-border-color);
 }
-
+:root:has(#darkChecked:checked) .btn:hover{
+  background-color: var(--btn-bg-hover);
+  border-color: var(--btn-border-hover);
+}
 .btn-larger {
   --bs-btn-font-size: 1.25rem;
   padding-top: 0.5rem;
