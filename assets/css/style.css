@@ -86,8 +86,8 @@ body {
 }
 .btn-larger {
   --bs-btn-font-size: 1.25rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
 }
 
 .col-text-bio * {
